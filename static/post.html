@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post Name</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/scss" href="../src/style/default.scss" />
+
+    <style type="text/css">
+      .img-container {
+        max-width: 600px;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <!-- Link around dots-wrapper added after tutorial video -->
+      <a href="index.html">
+        <div class="dots-wrapper">
+          <div id="dot-1" class="browser-dot"></div>
+          <div id="dot-2" class="browser-dot"></div>
+          <div id="dot-3" class="browser-dot"></div>
+        </div>
+      </a>
+
+      <ul id="navigation">
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main-container">
+      <br />
+
+      <div class="img-container">
+        <img src="../images/frontpage.jpg" />
+      </div>
+
+      <h3>Electric Vehicle Database/Blog</h3>
+
+      <p>
+        This is a project I worked on for about 3 weeks during my studies at
+        Bottega University
+        <br />
+        <br />
+        The homepage is a simple React Carousel using hardcoded images. The
+        system stored records of any user submitted electric vehicles, as well
+        as giving the user new and up to date articles from the News API
+        <br />
+        <br />
+        Cars submitted would automatically appear in the parking garage stored
+        in a Python/Flask database
+        <br />
+        <br />
+        Users have the ability to scrap any records that do not belong, as well
+        as submitting them.
+        <br />
+        <br />
+      </p>
+
+      <h5>Technologies:</h5>
+      <ul>
+        <li>- Python</li>
+        <li>- React JS</li>
+        <li>- Postgres</li>
+        <li>- Flask</li>
+        <li>- SQLAlchemy</li>
+        <li>- Carousel</li>
+        <li>- Animations</li>
+        <li>- News API</li>
+      </ul>
+
+      <h5>Vehicle Submit Form</h5>
+      <div class="img-container">
+        <img src="images/transistor.JPG" />
+      </div>
+      <h5>Parking Garage</h5>
+      <div class="img-container">
+        <img src="images/parkingGarage.jpg" />
+      </div>
+      <h5>News API Articles</h5>
+      <div class="img-container">
+        <img src="images/electricArticle.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
